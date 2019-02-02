@@ -1,0 +1,87 @@
+  <html>
+    <head>
+      <title>
+        gallery of photos.
+      </title>
+      <style type="text/css">
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: #cd84f1;
+        text-align: center;
+      }
+
+      .container  {
+         display:flex;
+         flex-wrap: wrap;
+         margin: 5%;
+
+      }
+      .container > div {
+        border: 1px solid #FFF;
+      }
+
+       .container > div > img {
+         height: 200px;
+         object-fit: cover;
+         width: 100%;
+       }
+
+       .container > .small {
+         flex:1 1 100px;
+       }
+
+       .container > .medium {
+         flex: 1 1 200px;
+       }
+
+       .container > .large {
+         flex: 1 1 300px;
+       }
+      </style>
+        <body>
+          <div class="container">
+          <div class="small">
+             <img src="img/1.jpg"/>
+           </div>
+          <div class="medium">
+             <img src="img/2.jpg"/>
+           </div>
+           <div class="large">
+             <img src="img/3.jpg"/>
+           </div>
+           <div class="medium">
+             <img src="img/4.jpg"/>
+           </div>
+           <div class="large">
+             <img src="img/5.jpg"/>
+           </div>
+           <div class="small">
+             <img src="img/6.jpg"/>
+           </div>
+           <div class="large">
+             <img src="img/7.jpg"/>
+           </div>
+           <div class="small">
+             <img src="img/8.jpg"/>
+           </div>
+           <div class="medium">
+             <img src="img/9.jpg"/>
+           </div>
+           <div class="large">
+             <img src="img/10.jpg"/>
+           </div>
+           <div class="samll">
+          <img src="img/11.jpg"/>
+         </div>
+       </div>
+            <a href="contenedores.html">
+              <h3>
+                <strong>Atras</strong>
+              </h3>
+            </a>
+        </body>
+    </head>
+  </html>

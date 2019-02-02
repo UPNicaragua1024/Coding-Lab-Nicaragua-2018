@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <title>potter</title>
+    </head>
+    <style type="text/css">
+      html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .slider-container {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+      }
+      .menu {
+        position: absolute;
+        left: 0%;
+        width: 100%;
+        bottom: 0;
+        z-index: 900;
+      }
+      .menu label {
+        cursor: pointer;
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background: #FFF;
+        border-radius: 50px;
+        margin: 0 .2em 1em;
+        &:hover {
+          background:red;
+        }
+      }
+      .slide {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        z-index: 10%;
+        padding: 8em 1em 0;
+        background-size: cover;
+        background-position: 50% 50%;
+        transition: left 0s .75s;
+      }
+      [id^="slide"]:checked + .slide {
+        left: 0;
+        z-index:100%;
+        transition: left .65s ease-out;
+      }
+      .slide-1 {
+        background-image: url("https://static01.diariodenavarra.es/uploads/imagenes/8col/2017/10/30/_reliquiasmuerte1_01484068.jpg?27d5e6f3299c5de7e0ef3f39fc22c324");
+      }
+      .slide-2 {
+        background-image: url("https://vignette.wikia.nocookie.net/es.harrypotter/images/0/00/Archivo-La_muerte_varita_sauco.png/revision/latest?cb=20110714063233");
+         }
+      .slide-3 {
+        background-image: url("https://i2.wp.com/k32.kn3.net/taringa/2/0/9/0/8/7/30/amantedelcine1/B9B.jpg");
+      }
+    </style>
+  <body>
+   <div class="slider-container">
+     <div class="menu">
+       <label for="slide-dot-one"></label>
+       <label for="slide-dot-two"></label>
+       <label for="slide-dot-three"></label>
+     </div>
+       <input id="slide-dot-one" type="radio" name="slides" checked>
+       <div class="slide slide-1"> </div>
+       <input id="slide-dot-two" type="radio" name="slides">
+       <div class="slide slide-2"> </div>
+       <input id="slide-dot-three" type="radio" name="slides">
+       <div class="slide slide-3"> </div>
+   </div>
+  </body>
+</html>

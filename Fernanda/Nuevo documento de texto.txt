@@ -1,0 +1,10 @@
+SSID:	VIRUS
+Protocolo:	802.11n
+Tipo de seguridad:	WPA2-Personal
+Banda de red:	2,4 GHz
+Canal de red	5
+Dirección IPv4:	192.168.1.17
+Fabricante:	Realtek Semiconductor Corp.
+Descripción:	Realtek RTL8723BE 802.11 bgn Wi-Fi Adapter
+Versión del controlador:	2023.50.1229.2016
+Dirección física (MAC):	?3C-95-09-C0-47-E1

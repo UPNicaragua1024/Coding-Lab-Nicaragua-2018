@@ -1,0 +1,31 @@
+<html>
+
+  <head>
+    <title></title>
+  </head>
+
+  <body>
+
+
+    <canvas id="canvas" height="600" width="800"></canvas>
+    <script type="text/javascript">
+    var canvas = document.getElementById("canvas");
+    if (canvas.getContext)  {
+      var ctx = canvas.getContext ("2d");
+
+
+      ctx.fillRect(10, 10, 300, 100);
+
+      ctx.fillStyle = "red";
+      ctx.beginPath();
+
+
+      ctx.arc( 75, 110, 50, 0, Math.PI*2, true);
+      ctx.fill();
+      ctx.beginPath();
+      ctx.arc(185, 110, 50, 0, Math.PI*2, true);
+      ctx.fill();
+    }
+    </script>
+     </body>
+</html>

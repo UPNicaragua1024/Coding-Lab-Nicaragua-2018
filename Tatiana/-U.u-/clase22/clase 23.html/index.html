@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <script type="text/javascript">
+      var canvas=document.getElementById("canvas");
+      if(canvas.getContext) {
+        var ctx =canvas.getContext("2d");
+        for (var i= 0; i <7;i++>) {
+          ctx.beginPath();
+          ctx.fillStyle="#Fd0"
+          ctx.arc(75, 75, 10, 10 + 10 * i,0, Math.PI*2,true);
+          ctx.fill();
+        }
+
+      
+    </script>
+
+  </body>
+</html>

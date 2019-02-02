@@ -1,0 +1,14 @@
+<html>
+<head>
+  <title>Mariposas de colores</title>
+</head>
+<body>
+  <p>Las mariposas cautivan a todos por su belleza y singularidad.
+     Sin embargo, son tan rápidas y huidizas que pocas veces podemos contemplarlas tan de cerca como en esta ocasión,
+    gracias a la amplia selección de imágenes que traemos para ti</p>
+
+    <img src="http://assets.tiempo.com.mx/uploads/imagen/imagen/86858/Nacimiento_Ni_o_Dios.png"
+    alt="nacimiento del niño Dios"
+    width="500" height="500">
+</body>
+</html>

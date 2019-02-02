@@ -1,0 +1,208 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <title>Eating Fun</title>
+    <style>
+
+
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    body{
+      background-color: #26648F;
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      margin: 0 40px;
+    }
+
+    .t1 {
+      text-align: center;
+
+       }
+
+       .menu {
+         margin: 16px 0;
+         background: #3CA560;
+         border-top-right-radius: 10px;
+         border-bottom-right-radius: 10px;
+         border-bottom-left-radius: 10px;
+         border-top-left-radius: 10px;
+         padding: 0;
+         width: 100%;
+       }
+
+       .menu li {
+         cursor: pointer;
+         display: inline-block;
+         margin: 20px;
+         list-style: none;
+       }
+
+       .menu li a {
+         padding: 20px;
+        text-decoration: none;
+         color: white;
+       }
+
+       .menu li:hover a {
+         background: white;
+         color: black;
+       }
+
+       .ColumnaA {
+         float: right;
+         color: white;
+       }
+
+       .ColumnaB {
+         float: left;
+         color: white;
+       }
+
+       .ColumnaA > p,
+       .ColumnaB > p {
+         font-size: 20px;
+         text-align: justify;
+       }
+
+      .facebook{
+        border-radius: 10px;
+        color: white;
+        background: #2980b9;
+        padding: 20px;
+        text-decoration: none;
+      }
+
+      .flip-container{
+        perspective: 1000px;
+
+      }
+
+      .flip-container:hover .flipper{
+        transform: rotateY(180deg);
+      }
+
+      .flip-container, .front, .back {
+        height: 480px;
+        width: 320px;
+      }
+
+      .flipper{
+        transition: 0.6s;
+        transform-style: preserve-3d;
+        position: relative;
+      }
+
+      .front, .back{
+        back-visibility:hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      .front{
+        z-index: 2;
+        transform: rotateY(0deg);
+        background-image:url("alcanza.jpg");
+      }
+
+      .back{
+        transform: rotateY(180deg);
+        background-image:url("amonos.jpg");
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <!-- <h1 class="t1">Eating Fun</h1> -->
+
+    <center>
+    <ul class="menu">
+      <li>
+        <a class="m1" href="./inicio.html">Inicio</a>
+      </li>
+      <li>
+        <a class="m1" href="./propuesta.html">Propuesta</a>
+      </li>
+      <li>
+        <a class="m2" href="./consejos.html">Consejos</a>
+      </li>
+      <li>
+        <a class="m3" href="./biografia.html">Biografia</a>
+      </li>
+    </ul>
+  </center>
+
+
+
+<img src="./Vida_Verde.jpg" height="200" />
+<h1>IMPORTANCIA PARA UNA BUENA ALIMENTACIÓN</h1>
+
+  <div style="display: inline-flex;">
+    <div class="ColumnaA" style="padding: 10px;">
+      <p>
+        La nutrición es importante para todos. Combinada con la actividad física y un peso saludable,
+        la buena alimentación es una forma excelente de ayudar a tu cuerpo a mantenerse fuerte y saludable.
+        Lo que comes puede influir en tu sistema inmunitario, tu estado de ánimo y tu nivel de energía.
+        Una buena nutrición (una dieta suficiente y equilibrada,combinada con el ejercicio físico regular) es un elemento fundamental de la buena salud.
+      </p>
+    </div>
+
+    <div class="ColumnaB" style="padding: 10px;">
+      <p>
+        Una mala nutrición puede debilitar el sistema inmunológico, aumentar la vulnerabilidad a las enfermedades,
+        alterar el desarrollo físico y mental y reducir la productividad.
+        La malnutrición se define como “un estado fisiológico anormal debido a un consumo inadecuado, desequilibrado o excesivo de macronutrientes y/o micronutrientes.
+        La malnutrición incluye la subalimentación y la sobrealimentación,así como las deficiencias de micronutrientes”.
+      </p>
+    </div>
+  </div>
+  <br><br><br><br>
+
+  <img src="Grafico.jpg" height="350" />
+
+  <p><h2>A nivel nacional,los niños de 0 a 2 años son los principales afectados con 3 tipos de desnutricion<br>
+    aguda(7%),global(6%),cornica(13%).</h2><br></p>
+
+      <br><br><br>
+
+      <img src="Grafico2.jpg" height="350" />
+
+      <p><h2>En Nicaragua hay un 16% de niños que subre de sobre peso u obesida.<br>
+        Estos casi siempre menores de 5 años.</p></h2>
+
+          <br><br><br>
+
+          <img src="Grafico3.jpg" height="350" />
+
+
+          <p><h2>En Nicaragua hay un 42% de niños que subre<br>
+            actualmente con algun tipo de desorden alimenticio.</p><h2>
+
+              <br><br>
+                <center>
+                 <div class="flip-container">
+                 <div class="flipper">
+                 <div class="front">
+
+                 </div>
+                 <div class="back">
+
+                 </div>
+                 </div>
+                </div>
+
+               </div>
+               </center>
+
+               <br><br>
+
+              <a class="facebook" href="https://www.facebook.com/Eating-Fun-2195230000751860" target="_blank">Facebook</a>
+
+  </body>
+</html>

@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>clase 22</title>
+    <style type="text/css">
+        canvas {
+          background: #000;
+          width: 100%;
+        }
+
+    </style>
+  </head>
+  <body>
+      <canvas id="canvas"></canvas>
+      <script type="text/javascript">
+      var canvas = document.getElementById("canvas");
+      if (canvas.getContext) {
+        var ctx = canvas.getContext("2d");
+
+        var y = 10;
+        for (var i = 0; i < 2; i++) {
+
+          ctx.fillStyle = "#fff";
+          ctx.fillRect(10,y,50,20);
+          ctx.fillRect(65,y,50,20);
+
+          ctx.fillStyle ="#e67e22";
+          ctx.fillRect(10,y+2,49,18);
+          ctx.fillRect(65,y+2,49,18);
+
+          y = y + 25;
+
+          ctx.fillStyle = "#fff";
+          ctx.fillRect(10,y,25,20);
+          ctx.fillRect(40,y,50,20);
+          ctx.fillRect(95,y,25,20);
+
+          ctx.fillStyle ="#e67e22";
+          ctx.fillRect(10,y+2,24,18);
+          ctx.fillRect(40,y+2,49,18);
+          ctx.fillRect(95,y+2,24,18);
+
+          y = y + 25;
+        }
+
+      }
+      </script>
+  </body>
+</html>
