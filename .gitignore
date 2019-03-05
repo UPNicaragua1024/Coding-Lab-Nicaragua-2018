@@ -9,3 +9,4 @@ pictures/
 *.ico
 *.jfif
 imagenes/
+.DS_Store
