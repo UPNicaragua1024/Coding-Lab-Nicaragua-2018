@@ -1,2 +1,11 @@
 *.rar
 *.zip
+*.jpeg
+*.jpg
+*.gif
+img/
+images/
+pictures/
+*.ico
+*.jfif
+imagenes/
